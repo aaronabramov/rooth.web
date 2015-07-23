@@ -1,7 +1,19 @@
+body {
+  background-image: url('../img/bg_texture_2x.jpg');
+  background-repeat: repeat;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
 .large-logo {
   display: block;
   margin: 0 auto;
   width: 100%;
+  max-width: 1000px;
 }
 
 a { text-decoration: none; }
