@@ -1,3 +1,7 @@
+html, body {
+  overflow: auto;
+}
+
 body {
   background-image: url('../img/bg_texture_2x.jpg');
   background-repeat: repeat;
@@ -5,13 +9,14 @@ body {
 
 .container {
   margin: 0 auto;
+  padding-top: 20px;
   width: 1000px;
   text-align: center;
 }
 
 .large-logo {
   display: block;
-  margin: 20px auto;
+  margin: 0px auto;
   width: 100%;
   max-width: 1000px;
 }
