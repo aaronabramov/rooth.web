@@ -11,12 +11,33 @@ body {
 
 .large-logo {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 100%;
   max-width: 1000px;
 }
 
-a { text-decoration: none; }
+h1, h2 {
+  letter-spacing: 15px;
+  color: #fff;
+  font-family: arial;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  border: 0;
+  display: inline-block;
+}
+
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
