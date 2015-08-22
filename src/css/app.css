@@ -7,6 +7,11 @@ body {
   background-repeat: repeat;
 }
 
+.wrapper {
+  background-image: url('../img/bg_texture_2x.jpg');
+  background-repeat: repeat;
+}
+
 .container {
   margin: 0 auto;
   padding-top: 20px;
