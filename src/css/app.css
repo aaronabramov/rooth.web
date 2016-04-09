@@ -4,13 +4,12 @@ html, body {
 }
 
 body {
-  background-image: url('../img/bg_texture_2x.jpg');
-  background-repeat: repeat;
-}
-
-.wrapper {
-  background-image: url('../img/bg_texture_2x.jpg');
-  background-repeat: repeat;
+  background-image: url('../img/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .container {
